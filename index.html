@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique TestPro</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="welcome">
+    <h1>Welcome to Unique TestPro</h1>
+</div>
+
+<div class="subject-container">
+    <div class="subject" onclick="showTopics('physics')">
+        <h2 class="subject-name">Physics</h2>
+        <div class="buttons">
+            <button class="subject-button" onclick="openPDF('physicsmap.pdf')">Mind Maps</button>
+            <button class="subject-button">Formulas</button>
+            <button class="subject-button">Trend</button>
+        </div>
+    </div>
+    <div class="subject" onclick="showTopics('chemistry')">
+        <h2 class="subject-name">Chemistry</h2>
+        <div class="buttons">
+            <button class="subject-button">Mind Maps</button>
+            <button class="subject-button">Formulas</button>
+            <button class="subject-button">Trend</button>
+        </div>
+    </div>
+    <div class="subject" onclick="showTopics('biology')">
+        <h2 class="subject-name">Biology</h2>
+        <div class="buttons">
+            <button class="subject-button">Mind Maps</button>
+            <button class="subject-button">Formulas</button>
+            <button class="subject-button">Trend</button>
+        </div>
+    </div>
+</div>
+
+<div class="topics-container" id="topics-container"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

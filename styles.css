@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.welcome h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.subject-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.subject {
+    width: 30%;
+    height: 200px;
+    background-color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.subject:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.subject h2 {
+    font-size: 24px;
+}
+
+.topics-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.topic-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.topic-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.topic-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.topic-button:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.box {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.box:hover {
+    background-color: #0056b3;
+}
+
+.box h2 {
+    margin-top: 0;
+}
+
+.button {
+    background-color: #fff;
+    color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+.subject {
+    position: relative;
+    /* other existing styles */
+}
+
+.buttons {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Your existing styles */
+.subject-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.subject {
+    width: 30%;
+    height: 200px;
+    background-color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    position: relative; /* Ensure the box has relative positioning */
+}
+
+.subject:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.subject h2 {
+    font-size: 24px;
+}
+
+.subject-name {
+    /* Position the subject name at the top of the box */
+    position: absolute;
+    top: 10px; /* Adjust this value as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0; /* Remove any default margin */
+}
+
+.buttons {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center ; /* Center align the buttons */
+}
+
+.subject-button {
+    display: block; /* Display buttons as block elements */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 5px; /* Add margin between buttons */
+}
+
+.subject-button:hover {
+    background-color: #0056b3;
+}
